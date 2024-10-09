@@ -4,12 +4,12 @@
 
 In this project, as part of the Artificial Intelligence program by the Ministry of Industry of the Republic of Turkey, I developed SQL queries to retrieve the required results from a database provided by HAVELSAN. Following comprehensive database training, I implemented optimized SQL queries to meet specific project requirements and ensure efficient data retrieval.
 
-## SCHEMA
-author(author id:int, author name:varchar(60))
-publisher(publisher id:int, publisher name:varchar(50))
-book(isbn:char(13), book name:varchar(120), publisher id:int, first publish year:char(4), page count:int, category:varchar(25), rating:float) REFERENCES publisher(publisher id)
-author of(isbn:char(13),author id:int) REFERENCES book(isbn) author(author id)
-phw1(isbn:char(13), book name:varchar(120), rating:float)
+# SCHEMA
+#### author(author id:int, author name:varchar(60))
+#### publisher(publisher id:int, publisher name:varchar(50))
+#### book(isbn:char(13), book name:varchar(120), publisher id:int, first publish year:char(4), page count:int, category:varchar(25), rating:float) REFERENCES publisher(publisher id)
+#### author of(isbn:char(13),author id:int) REFERENCES book(isbn) author(author id)
+#### phw1(isbn:char(13), book name:varchar(120), rating:float)
 
 ### 1. createTables(self): Create all tables according to the schema defined above
 
