@@ -11,6 +11,8 @@ In this project, as part of the Artificial Intelligence program by the Ministry 
 #### author of(isbn:char(13),author id:int) REFERENCES book(isbn) author(author id)
 #### phw1(isbn:char(13), book name:varchar(120), rating:float)
 
+*****************************************************************************************
+
 ### 1. createTables(self): Create all tables according to the schema defined above
 
 ### 2. Data has been added to the appropriate tables. In this task, no data has been added to table phw1.
